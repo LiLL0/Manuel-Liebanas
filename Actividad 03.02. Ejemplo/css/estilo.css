@@ -1,0 +1,26 @@
+body{
+    background-color:gainsboro;
+}
+h1{
+ padding: 10px;
+ letter-spacing: 10px;
+ font-size: 36pt;
+ text-align: center;
+
+}
+h2{
+    background-color: grey;
+    margin: 0% 10% 0% 10%;
+    color: white;
+    padding-left: 20px;
+    font-size: 24pt;
+    clear: both;
+}
+p{
+    margin: 1% 15% 1% 15%;
+    clear: both;
+}
+img{
+    float: left;
+    
+}
