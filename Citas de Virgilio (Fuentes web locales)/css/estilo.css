@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Ribeye Marrow";
+    src: url("RibeyeMarrow-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: "Just Another Hand";
+    src: url("JustAnotherHand-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: "Lobster";
+    src: url("Lobster-Regular.ttf");
+  }
+  
+body{
+ background-color: #cbac4d;
+}
+h1{
+    font-family: "Ribeye Marrow";
+    text-align: center;
+    font-size: 300%;
+    text-transform: uppercase;
+    letter-spacing: 24px;
+}
+p.fuente{
+    font-family: sans-serif;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: justify;
+    line-height: 200%;
+}
+em{
+    text-decoration: underline;
+}
+p.fuente1{
+    margin: 0;
+    font-size: 250%;
+    font-family: "Lobster";
+}
+p.fuente2{
+    margin: 0;
+    text-align: right;
+    color: white;
+    font-family: "Just Another Hand";
+    font-size: 350%;
+    letter-spacing: 1px;
+    margin-bottom: 3.2%;
+      
+}
