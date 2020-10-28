@@ -1,0 +1,58 @@
+
+body{
+    background-color: #fef8e6;
+    font-size: 200%;
+    font-family: sans-serif;
+    text-align: justify;
+    margin: 0 20%;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+pre{
+    background-color: #eeeeee;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: black solid 2px;
+    padding:5px;
+    white-space: pre-wrap;
+
+}
+p{
+clear: both;
+}
+q{
+    font-style: oblique;
+}
+p img.caras{
+display: block;
+margin: auto;    
+}
+
+hr{
+    height: 5px;
+    width: 60%;
+    margin: auto;
+    background-color:  black;
+}
+img{
+    vertical-align: middle;
+}
+img.sonrisa{
+    float: left;
+    width: 150px;
+    margin-right: 10px;
+}
+img.alineados{
+    height: 100px;
+}
+
+span{
+    font-size: 150%;
+}
+
+address{
+border-top: 3px solid black;
+padding-top: 15px;
+}
