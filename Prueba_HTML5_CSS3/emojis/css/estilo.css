@@ -1,0 +1,21 @@
+img.paracaidas{
+    width: 100px;
+    float: right;
+}
+p{
+    margin-right: 40%;
+    text-align: justify;
+}
+p.emojis{
+    font-size: 250%;
+}
+span.azul{
+    color: blue;
+    text-decoration: underline;
+}
+span.rojo{
+    color: red;
+}
+span.naranja{
+    color: orange;
+}
