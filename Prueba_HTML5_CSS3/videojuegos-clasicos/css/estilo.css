@@ -2,6 +2,7 @@
     font-family: "Monoton";
     src: url(../fonts/monoton.woff2);
   }
+
 body{
     background-color: black;
     color: white;
@@ -12,11 +13,14 @@ div.fondoizquierdo{
     background-image: url("../img/matrix.png") ;
     background-repeat: repeat-y;
     background-position: left;
+    background-size: 100px;
+
 }
 div.fondoderecho{
-    background-image: url(../img/matrix2.png);
+    background-image: url("../img/matrix2.png");
     background-repeat: repeat-y;
     background-position: right;
+    background-size: 100px;
 
 }
 div.contenido{
