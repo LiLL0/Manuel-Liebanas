@@ -1,5 +1,6 @@
 body{
     background-color: grey;
+    font-size: 150%;
 }
 h1{
     text-align: center;
@@ -20,30 +21,33 @@ nav ul li{
     list-style: none;
     color: black;
 }
-a::before{
-    display: flex;
-    width: 20px;
-    height: 20px;
+a:before{
+    margin-right: 5px;
+}
+a[rel='alternate']:after{
+    content: " Brexit";
 }
 a[rel='next']::before{
-    content: url(../iconos/news.svg);
+    content: url(../iconos/news.png);
 }
 a[rel='tag']::before{
-    content: url(../iconos/tienda.svg);
+    content: url(../iconos/tienda.png);
 
 }
 a[rel='bookmark']::before{
-    content: url(../iconos/star.svg);
+    content: url(../iconos/star.png);
 
 }
 a[rel='help']::before{
-    content: url(../iconos/pdf.svg);
+    content: url(../iconos/pdf.png);
+
 
 }
 a[rel='search']::before{
-    content: url(../iconos/search.svg);
+    content: url(../iconos/search.png);
+
 
 }
 a[rel='nofollow']::before{
-    content: url(../iconos/protection.svg);
+    content: url(../iconos/protection.png);
 }
