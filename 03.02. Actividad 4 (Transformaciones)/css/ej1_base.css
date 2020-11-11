@@ -1,0 +1,86 @@
+.container{
+    position: relative;
+  }
+.caja{
+  width: 180px;
+  height: 180px;
+  background-color: #30B037;
+  color: #FFF;
+  text-align: center;
+  line-height: 180px;
+  margin: 15px;
+  float: left;
+  font-size: 18px;
+  font-family: Arial;
+}
+.caja:hover{
+  transition: 3s;
+  transition-delay: .5s;
+  cursor: pointer;
+}
+.caja1{
+  background-color: #C0392B;
+}
+.caja1:hover{
+  transform: scale(.5);
+}
+.caja2{
+background-color: #9B59B6 ;
+}
+.caja2:hover{
+  transform: rotate(720deg);
+}
+.caja3{
+  background-color: #2980B9;
+}
+.caja3:hover{
+  transform: skew(15deg, 15deg);
+}
+.caja4{
+  background-color: #3498DB;
+}
+.caja4:hover{
+  transform: skewX(30deg);
+}
+.caja5{
+  background-color: #17A589;
+}
+.caja5:hover{
+  transform: skewY(30deg);
+}
+.caja6{
+  background-color: #F1C40F;
+}
+.caja6:hover{
+  transform: translate(15px,20px);
+}
+.caja7{
+  background-color: #E67E22;
+}
+.caja7:hover{
+  transform: translateX(50px);
+}
+.caja8{
+  background-color: #3498DB;
+}
+.caja8:hover{
+  transform: translateY(30px);
+}
+.caja9{
+  background-color: #2C3E50;
+}
+.caja9:hover{
+  transform: perspective(200px) rotateX(360deg); 
+}
+.caja10{
+  background-color: #808080;
+}
+.caja10:hover{
+  transform: perspective(200px) rotateY(360deg);
+}
+.caja11{
+  background-color: #000000;
+}
+.caja11:hover{
+  transform: matrix(0.7, 0.7, -0.7, 0.7, -0.7, 34);
+}
