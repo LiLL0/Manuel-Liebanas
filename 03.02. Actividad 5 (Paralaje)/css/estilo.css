@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.margen{
+    height: 250px;
+    border:outset 3px ;
+
+}
+p{
+      text-align: center;
+    font-size: 150%;  
+    line-height: 80px;
+}
+h1{
+    text-align: center;
+    padding:30px;
+    width: 20%;
+    margin: auto;
+    letter-spacing: 5px;
+    color: violet;
+}
+
+.inner{
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+.fondo1{
+    background: url(../img/17039-4k.jpg) repeat fixed 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fondo2{
+    background: url(../img/17027-4k.jpg) repeat fixed 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fondo3{
+    background: url(../img/17055-4k.jpg) repeat fixed 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
