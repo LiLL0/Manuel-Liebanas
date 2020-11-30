@@ -4,30 +4,19 @@
   }
 
 body{
+    background: url("../img/matrix.png") repeat-y left,
+    url("../img/matrix2.png") repeat-y right ;
+    background-size: 100px;
     background-color: black;
     color: white;
     text-align: justify;
     font-family: monospace;
 }
-div.fondoizquierdo{
-    background-image: url("../img/matrix.png") ;
-    background-repeat: repeat-y;
-    background-position: left;
-    background-size: 100px;
-
-}
-div.fondoderecho{
-    background-image: url("../img/matrix2.png");
-    background-repeat: repeat-y;
-    background-position: right;
-    background-size: 100px;
-
-}
 div.contenido{
        margin: 0 22%;  
 }
 hr{
-    margin: 0 10%;
+    margin: 0 4%;
     height: 2px;
     background-color: #05c705;
     border: 1px #05c705;
@@ -58,7 +47,7 @@ h2{
 }
 span.emojis{
     color: #05c705;
-    font-size: 200%;
+    font-size: 300%;
     position: relative;
     left: 40%;
 }
@@ -74,14 +63,16 @@ time{
 p{
     padding:0 10px;
     font-size: 10pt;
+    width: 67%;
     
 }
 img.derecha{
     float: right;
+    width: 30%;
     padding: 2px;
     background-color: white;
     border: 4px solid #05c705;
-    margin: 0 10px;
+    margin: 20px 10px;
 }
 img.space{
     float: left;
@@ -94,4 +85,5 @@ img.space{
 address{
     border-top: 2px solid #05c705;
     font-style: unset;
+    font-size: 70%;
 }

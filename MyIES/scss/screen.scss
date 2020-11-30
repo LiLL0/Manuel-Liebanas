@@ -1,0 +1,50 @@
+//Variables:
+
+//color de texto (#eee),
+$colorTexto:#eee;
+//color de texto al pasar sobre él (#fff),
+$colorTexto-hover:#FFF;
+//color de fondo (#666),
+$colorBackground: #666;
+//color de fondo al pasar el ratón sobre ese elemento de la lista(#888).
+$colorBackground-hover: #888;
+
+
+
+//Mixin:
+//Para establecer el color del texto y el color del fondo.
+@mixin textoYFondo($colorTexto, $colorBackground) {
+    background-color: $colorBackground;
+    color: $colorTexto;
+}
+
+//Para establecer el color del texto y el color del fondo, pero en este caso para cuando pasamos con el ratón sobre él.
+@mixin textoYFondo_hover($colorTexto, $colorBackground) {
+    background-color: $colorBackground-hover;
+    color: $colorTexto-hover;
+}
+
+//Para el box-sizing independientemente del tipo de navegador, el valor que tomará el box-sizing será un parámetro que le pasaremos cuando lo invoquemos.
+@mixin box-sizing($valor-box-sizing){
+    -webkit-box-sizing: $valor-box-sizing;
+    -moz-box-sizing: $valor-box-sizing;
+    box-sizing: $valor-box-sizing;
+}
+//Para las transiciones independientemente del navegador, a este mixin le enviaremos los argumentos de: property, duration y timing. 
+//Este último tendrá el valor por defecto linear.
+@mixin transiciones($property,$duration,$timing:linear){
+    -webkit-transition: $property,$duration,$timing;
+    -moz-transition: $property,$duration,$timing;
+    transition: $property,$duration,$timing;
+
+}
+
+//Para las animaciones donde también estarán determinadas por el navegador, los argumentos que usaremos en este mixing son: name, duration y timing. 
+//Este último tendrá el valor por defecto linear.
+@mixin animaciones($name,$duration,$timing:linear){
+    -webkit-animation: $name,$duration,$timing;
+    -moz-animation: $name,$duration,$timing;
+    animation: $name,$duration,$timing;
+}
+//importamos el menu 
+@import '_menu';
