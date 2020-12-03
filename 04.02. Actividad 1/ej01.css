@@ -89,9 +89,21 @@ body
     float: right;
     margin: 0 0 10px 10px;
 }
-@media (max-width:480px){
-h1{
-    background-color: black;
+
+@media (max-width: 1000px){
+    #content, #extras{
+        width: 80%;
+        margin: 0;
+    }
 }
+
+@media (max-width: 480px){
+    #container, #nav, #content, #extras{
+        width: 100%;
+        margin: 0;
+    }
     
+    .feature-image{
+        display: none;
+    }
 }
