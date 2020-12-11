@@ -1,0 +1,212 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+p{
+    font-size: 22px;
+}
+/*
+Header
+*/
+.contenido-header {
+	width: 100%;
+	height: 100vh;
+	background-image: url(../img/header.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.contenido-header .texto {
+	width: calc(100vw - 20px);
+	height: 100vh;
+	font-size: 90px;
+	font-weight: 400;
+	font-family: 'Noto Serif', serif;
+	font-style: italic;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: purple;
+	text-transform: uppercase;
+}
+.contenido-header .texto span {
+ background-color: #fff;
+ opacity: .8;
+ padding: 10px;
+}
+/*
+menu navegador
+*/
+.menu{
+	background-color: #33032d;
+	width: 100%;
+	position: sticky;
+	top: 0;
+	padding: 5px;
+	z-index: 999;
+	text-align:center;
+	display: flex;
+	justify-content: center;
+	font-family: serif;
+	font-style: italic;
+	margin-bottom: 60px;
+}
+.menu a{
+	display: inline-block;
+	padding:10px 30px;
+	font-size: 18px;
+	background-color: #33032d;
+	margin:0 10px;
+	transition: .5s ease all;
+	color: #eaeaea;
+	text-decoration: none;
+}
+.menu a:hover{
+	transform: translateY(18px);
+	background-color:  #531253;
+}
+
+/*
+nosotros
+*/
+.nosotros{
+	margin-bottom: 60px;
+}
+.subtitulo{
+	font-size: 20px;
+	color: #170312;
+	font-family: serif;
+	font-weight: 700;
+	z-index: 2;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.subtitulo span{
+	background-color: #eaeaea;
+	padding: 0 15px;
+	z-index: 99;
+	position: relative;
+
+}
+
+.subtitulo:after{
+	content:"";
+	display: inline-block;
+	height: 2px;
+	width: 100%;
+	background-color: #170312;
+	position: relative;
+	top: -29px;
+	z-index: 1;
+}
+.nosotros .titulo, .productos .titulo{ /* Meto tambien el titulo del producto*/
+	width: 70%;
+	font-size: 36px;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-bottom: 50px;
+}
+
+/*
+Productos
+*/
+.productos{
+	background-color: #eaeaea;
+	padding: 20px;
+	margin-bottom: 60px ;
+}
+.productos .producto{
+	position: relative;
+	width: 100%;
+}
+.productos .overlay{
+	width: 0%;
+	height: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color:  #531253;
+	overflow: hidden;
+	transition: .5s ease;
+}
+.productos .producto:hover .overlay{
+	width: 100%;
+	opacity: .8;
+}
+
+.productos .producto .overlay-texto{
+	top:50%;
+	left: 50%;
+	position: absolute;
+	white-space: nowrap;
+	color: white;
+	font-size: 18px;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+.productos .producto img{
+	object-fit: cover;
+	}
+/*
+separador
+*/
+.separador{
+	width: 100%;
+	height: 200px;
+	background-image: url(../img/cycling.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	margin-bottom: 60px;
+}
+
+.separador p{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 24px;
+	font-family: serif;
+	
+}
+
+/*
+rutas
+*/
+p.rutas{
+	font-size: 12px;
+	text-align: justify;
+}
+
+
+/*
+contacto
+*/
+/*
+footer
+*/
+.redes-sociales{
+	padding:10px;
+	background-color:  #531253;
+}
+.redes-sociales img{
+	padding: 5px;
+	margin: 0 20px 0 20px;
+	transition: .3s ease all;
+}
+.redes-sociales img:hover{
+	transform: scale(1.5);
+}
+
