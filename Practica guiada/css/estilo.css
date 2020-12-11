@@ -1,3 +1,11 @@
+@font-face {
+	font-family: Noto;
+	src: url(../fonts/NotoSans-Regular.ttf);
+  }
+  @font-face {
+	font-family: Anton;
+	src: url(../fonts/Anton-Regular.ttf);
+  }
 *{
     margin:0;
     padding: 0;
@@ -5,7 +13,7 @@
 }
 body{
     font-size: 20px;
-    font-family: sans-serif;
+    font-family: 'Noto';
 }
 p{
     font-size: 22px;
@@ -27,8 +35,6 @@ Header
 	height: 100vh;
 	font-size: 90px;
 	font-weight: 400;
-	font-family: 'Noto Serif', serif;
-	font-style: italic;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -53,7 +59,7 @@ menu navegador
 	text-align:center;
 	display: flex;
 	justify-content: center;
-	font-family: serif;
+	font-family: 'Anton';
 	font-style: italic;
 	margin-bottom: 60px;
 }
@@ -146,7 +152,7 @@ Productos
 	left: 50%;
 	position: absolute;
 	white-space: nowrap;
-	color: var(--blanco);
+	color: white;
 	font-size: 18px;
 	transform: translate(-50%, -50%);
 	overflow: hidden;
