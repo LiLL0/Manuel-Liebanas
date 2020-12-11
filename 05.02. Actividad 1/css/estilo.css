@@ -1,0 +1,25 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.divs{
+    height: 100px;
+    padding: 10px;
+}
+.verde{
+    background-color: green;
+}
+.rojo{
+    background-color: red;
+}
+.azul{
+    background-color: blue;
+}
+.naranja{
+    background-color: orange;
+}
+.morado{
+    background-color: purple;
+}   
