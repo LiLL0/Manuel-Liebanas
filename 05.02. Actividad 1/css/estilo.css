@@ -6,13 +6,14 @@
 }
 .divs{
     height: 100px;
-    padding: 10px;
-}
+    border: solid white 5px;
+ }
 .verde{
-    background-color: green;
+    background-color: lime;
 }
 .rojo{
     background-color: red;
+    border: solid white 5px;
 }
 .azul{
     background-color: blue;
@@ -21,5 +22,8 @@
     background-color: orange;
 }
 .morado{
-    background-color: purple;
+    background-color: #FD29FD;
 }   
+.contenedor{
+    border:1px solid black
+}

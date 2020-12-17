@@ -1,0 +1,36 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: lime;
+    height: 100px;
+}
+.cajas{
+    height: 100px;
+    background-color: rgb(107, 107, 250);
+}
+.letras{
+    height: 100px;
+    background-color: gainsboro;
+}
+.modo{
+    background-color: aqua;
+    height: 100px;
+}
+.caras{
+    background-color: orange;
+    height: 100px;
+}
+.footer{
+    background-color: lime;
+    height: 50px;
+}
+.divs{
+    border: solid white 2px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
