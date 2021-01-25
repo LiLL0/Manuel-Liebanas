@@ -1,0 +1,10 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+img{
+    height: 25px;
+}
+.table > tbody > tr > th , .table > tbody > tr > td {
+    vertical-align: middle;
+}
