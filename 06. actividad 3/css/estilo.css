@@ -1,0 +1,30 @@
+.caja{
+  border:solid 2px black;
+  width: 650px;
+  padding: 30px 0px;
+}
+.keyframe {
+  width: 150px;
+  height: 40px;
+  background-color: orange;
+  color:white;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 15pt;
+  position: relative;
+  animation: keyframe 5s infinite;
+  border-radius:10px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+@keyframes keyframe
+{
+0% {transform: rotate(0deg);left:0px;}
+15% {transform: rotate(25deg);left:0px;}
+45% {transform: rotate(0deg);left:511px;background:red;}
+55% {transform: rotate(0deg);left:511px;}
+80% {transform: rotate(-360deg);left:0px;}
+100% {transform: rotate(-360deg);left:0px;}
+}
